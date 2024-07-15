@@ -1,4 +1,4 @@
-FROM    docker.io/centos:centos7
+FROM    docker.io/redhat/ubi9:latest
 MAINTAINER      Deep Shah
 RUN     yum install httpd -y
 RUN     mkdir -p /opt/incoming
